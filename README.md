@@ -1,7 +1,7 @@
 # CoinTradePlatform
 
 
-Merkel Market Simulator is a simple cryptocurrency market simulator that allows users to place bids and asks, track market statistics, and manage their wallet. The data is processed from a CSV file containing historical market data.
+CoinTradePlatform is a simple cryptocurrency market simulator that allows users to place bids and asks, track market statistics, and manage their wallet. The data is processed from a CSV file containing historical market data.
 
 ## Features
 - View available trading products
@@ -10,20 +10,12 @@ Merkel Market Simulator is a simple cryptocurrency market simulator that allows 
 - Check wallet balance
 - Move forward in time to simulate market changes
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/merkel-market-simulator.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd merkel-market-simulator
-   ```
-3. Compile the program:
+
+1. Compile the program:
    ```sh
    g++ -o MerkelMain MerkelMain.cpp OrderBook.cpp CSVReader.cpp Wallet.cpp -std=c++11
    ```
-4. Run the program:
+2. Run the program:
    ```sh
    ./MerkelMain
    ```
