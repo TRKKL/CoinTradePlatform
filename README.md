@@ -2,6 +2,7 @@
 
 
 CoinTradePlatform is a simple cryptocurrency market simulator that allows users to place bids and asks, track market statistics, and manage their wallet. The data is processed from a CSV file containing historical market data.
+"This project was developed as part of a course offered by the University of London on Coursera, where I followed the instructor's guidance to complete the required implementation."
 
 ## Features
 - View available trading products
